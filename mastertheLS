@@ -1,0 +1,1 @@
+ls -tp . |sed -z 's/\n/,/g'| rev |cut -c2-| rev
